@@ -20,7 +20,7 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <!--main 함수가 있는 class경로-->
-        <start-class>com.pie.service</start-class>
+        <start-class>com.pie.service.ServiceApplication</start-class>
         <webapp.lib>${basedir}/src/lib</webapp.lib>
     </properties>
 
