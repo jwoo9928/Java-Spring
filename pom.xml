@@ -15,6 +15,13 @@
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>11</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <!--main 함수가 있는 class 경로-->
+        <start-class>com.pie.service</start-class>
+        <webapp.lib>${basedir}/src/lib</webapp.lib>
     </properties>
 
     <!--    각종 라이브러리 관리-->
